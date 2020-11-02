@@ -1,4 +1,4 @@
-package com.webOrder.utilities;
+package com.webOrder.B20.utilities;
 
 import org.openqa.selenium.WebElement;
 

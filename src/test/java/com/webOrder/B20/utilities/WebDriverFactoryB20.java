@@ -1,4 +1,4 @@
-package com.webOrder.utilities;
+package com.webOrder.B20.utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

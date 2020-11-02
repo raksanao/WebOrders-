@@ -1,4 +1,4 @@
-package com.webOrder.utilities;
+package com.webOrder.B20.utilities;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -15,7 +15,18 @@ public class SmartBearUtilitiesB20 {
 3.- This method simply logs in to SmartBear when you call it
 4.- Accept WebDriver type as parameters*/
     public static void loginToSmartBear(WebDriver driver) {
+//3. Enter username: “Tester”
 
+        WebElement usernameInput = driver.findElement(By.id("ctl00_MainContent_username"));
+        usernameInput.sendKeys("Tester");
+
+        //4. Enter password: “test”
+        WebElement passwordInput = driver.findElement(By.id("ctl00_MainContent_password"));
+        passwordInput.sendKeys("test");
+
+        //5. Click to Login button
+        WebElement loginButton = driver.findElement(By.id("ctl00_MainContent_login_button"));
+        loginButton.click();
     }
 
     /*@param: Method takes WebDriver object and String(name)

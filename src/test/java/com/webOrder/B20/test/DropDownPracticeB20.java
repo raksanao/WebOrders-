@@ -1,6 +1,7 @@
-package com.webOrder.tests;
+package com.webOrder.B20.test;
 
-import com.webOrder.pages.LoginPage;
+import com.webOrder.B20.utilities.BrowserUtils2;
+import com.webOrder.B20.utilities.WebDriverFactoryB20;
 import com.webOrder.utilities.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -11,7 +12,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.TimeUnit;

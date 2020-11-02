@@ -1,10 +1,10 @@
-package com.webOrder.tests;
+package com.webOrder.B20.test;
 
 import com.webOrder.pages.LoginPage;
 import com.webOrder.utilities.BrowserUtils;
 import com.webOrder.utilities.ConfigurationReader;
 import com.webOrder.utilities.Driver;
-import com.webOrder.utilities.SmartBearUtilitiesB20;
+import com.webOrder.B20.utilities.SmartBearUtilitiesB20;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

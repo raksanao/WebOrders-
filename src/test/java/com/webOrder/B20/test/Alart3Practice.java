@@ -1,8 +1,8 @@
-package com.webOrder.B20;
+package com.webOrder.B20.test;
 
 import com.webOrder.utilities.BrowserUtils;
-import com.webOrder.utilities.BrowserUtils2;
-import com.webOrder.utilities.WebDriverFactoryB20;
+import com.webOrder.B20.utilities.BrowserUtils2;
+import com.webOrder.B20.utilities.WebDriverFactoryB20;
 import org.openqa.selenium.*;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
